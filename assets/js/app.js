@@ -1,3 +1,5 @@
+require("../css/app.css");
+
 function showByFilters() {
   let checkBoxes = document.getElementsByClassName("myCheckbox");
   let currentParameters = "";
@@ -22,7 +24,6 @@ function showByFilters() {
     });
   }
 }
-window.onload = showByFilters;
 
 /*!
  * parallax.js v1.5.0 (http://pixelcog.github.io/parallax.js/)

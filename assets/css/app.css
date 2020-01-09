@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Old+Standard+TT|Open+Sans&display=swap");
-@import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato|Old+Standard+TT|Open+Sans &display=swap");
+@import url("//netdna.bootstrapcdn.com/font-awesome / 4.1.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
 /* Color and fonts */
 .ubuntu {
   font-family: "Ubuntu", sans-serif;
@@ -307,9 +308,8 @@ nav ul li a:hover {
 
 /* select */
 .select-style {
-  margin-left: 2rem;
-  padding: 0;
   margin: 0;
+  padding: 0;
   border: 1px solid #ccc;
   width: 80px;
   border-radius: 3px;
@@ -372,7 +372,6 @@ input[type="checkbox"]:checked {
   opacity: 1;
   border-top-color: transparent;
   border-left-color: transparent;
-  -webkit-transform: rotate(45deg);
 }
 
 /* Accordéon arrow */
@@ -406,7 +405,7 @@ input[type="checkbox"]:checked {
 
 /* Media queries */
 
-@media screen and (max-width: 760px) {
+@media screen and(max-width: 760px) {
   /* Navbar sm screen */
 
   h1 {
@@ -439,13 +438,13 @@ input[type="checkbox"]:checked {
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and(max-width: 1023px) {
   .leftCard {
     float: left;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and(max-width: 560px) {
   .nav-container {
     position: fixed;
     top: 0;
