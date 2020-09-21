@@ -365,13 +365,11 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-  width: 10px;
   top: -5px;
   left: 5px;
   border-radius: 0;
   opacity: 1;
-  border-top-color: transparent;
-  border-left-color: transparent;
+  background-color: blue;
 }
 
 /* Accordéon arrow */
